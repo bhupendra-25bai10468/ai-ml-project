@@ -92,11 +92,11 @@ python main.py
 ## 📂 Project Structure
 
 ```
-calories-tracker/
-│
-├── main.py      # GUI (Tkinter)
-├── logic.py     # Core logic and calculations
-├── README.md    # Project documentation
+ai-ml-project/
+├── README.md
+└── calories-tracker/
+    ├── main.py
+    └── logic.py
 ```
 
 ---
