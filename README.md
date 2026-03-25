@@ -2,25 +2,25 @@
 
 ## 📌 Overview
 
-This project is a Python-based GUI application that helps users calculate their daily calorie requirements and track their food intake. It is designed to solve a real-world problem of managing diet and maintaining a healthy lifestyle, especially for students and individuals who do not actively track their calorie consumption.
+The purpose of this project is to create a Python app that has a GUI, allows users to determine how many calories they should be consuming each day, and allows them to keep track of the food they consume. This app was designed for real-world use and is aimed at assisting students who may not be routinely tracking their caloric intake.
 
 ---
 
 ## 🎯 Problem Statement
 
-Many people are unaware of their daily calorie needs and often consume either too much or too little food. This leads to unhealthy eating habits and lifestyle issues.
+Many people are not aware of their calorie requirements on a daily basis. They either eat more or less. This affects their lifestyle and eating habits.
 
-This project addresses the problem by providing a simple and user-friendly system to:
+This project will solve this problem by giving a simple and user-friendly solution to:
 
-* Calculate daily calorie requirements
-* Track food intake
-* Monitor remaining calories
+* Calculate the calorie requirements
+* Keep a record of food consumed
+* Keep a record of the remaining calories
 
 ---
 
 ## 🚀 Features
 
-* ✅ Daily calorie calculation based on:
+* ✅ Calculation of calorie requirements on a daily basis by taking into account:
 
   * Age
   * Weight
@@ -32,9 +32,9 @@ This project addresses the problem by providing a simple and user-friendly syste
 
 * ✅ Displays total calories consumed
 
-* ✅ Shows remaining calories in real-time
+* ✅ Displays remaining calories in real-time
 
-* ✅ Clean and user-friendly dark-themed interface
+* ✅ Clean and user-friendly 
 
 * ✅ Input validation and error handling
 
@@ -46,18 +46,16 @@ The project is divided into two main parts:
 
 ### 🔹 Logic Layer (`logic.py`)
 
-* Calculates daily calorie needs using BMR formula
-* Applies activity multipliers
-* Tracks consumed calories
-* Provides remaining calorie calculation
+* Uses the BMR formula to figure out how many calories you need each day* Uses activity multipliers
+* Keeps track of calories eaten
+* Gives the number of calories left to eat
 
 ### 🔹 User Interface (`main.py`)
 
-* Built using Tkinter
-* Takes user inputs
-* Displays calculated results
-* Allows adding food items and calories
-* Updates results dynamically
+* Made with Tkinter* Accepts inputs from users
+* Shows the results of the calculations
+* Lets you add food and calories
+* Changes results in real time
 
 ---
 
@@ -105,18 +103,16 @@ calories-tracker/
 
 ## ⚠️ Important Notes
 
-* Enter valid positive values for all inputs
-* Calculate daily calories before adding food items
-* The application does not store data permanently (session-based tracking only)
+You should enter positive and valid numbers into the appropriate fields to ensure the calculation of your daily caloric intake is accurate prior to adding items, this app will not save any of your data permanently (session-based tracking only).
 
 ---
 
 ## 🔮 Future Improvements
 
-* Add database support to save history
-* Add graphical charts for calorie tracking
-* Include a built-in food database
-* Convert into a web or mobile application
+* Adding a database to support storing history
+* Adding visual charts to help track calories
+* Including a built-in database of foods
+* Transitioning to a web or mobile app format
 
 ---
 
@@ -137,4 +133,4 @@ Bhupendra Singh
 
 ## 📌 Conclusion
 
-This project demonstrates how programming can be used to solve real-life problems in a simple and effective way. It focuses on usability, clarity, and practical application rather than complexity.
+This project shows how programming can be used for solving real-life problems in a simple yet efficient way. It focuses on usability, clarity, and practical application rather than complexity.
