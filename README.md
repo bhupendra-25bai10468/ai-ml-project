@@ -4,6 +4,8 @@
 
 The purpose of this project is to create a Python app that has a GUI, allows users to determine how many calories they should be consuming each day, and allows them to keep track of the food they consume. This app was designed for real-world use and is aimed at assisting students who may not be routinely tracking their caloric intake.
 
+Note: The source code is located inside the 'calories-tracker' folder.
+
 ---
 
 ## 🎯 Problem Statement
