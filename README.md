@@ -72,7 +72,7 @@ The project is divided into two main parts:
 1. Clone the repository:
 
 ```bash
-git clone <your-repo-link>
+git clone https://github.com/bhupendra-25bai10468/ai-ml-project.git
 ```
 
 2. Navigate to the project folder:
