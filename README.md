@@ -78,7 +78,7 @@ git clone https://github.com/bhupendra-25bai10468/ai-ml-project.git
 2. Navigate to the project folder:
 
 ```bash
-cd calories-tracker
+cd ai-ml-project/calories-tracker
 ```
 
 3. Run the application:
