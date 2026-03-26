@@ -48,13 +48,15 @@ The project is divided into two main parts:
 
 ### 🔹 Logic Layer (`logic.py`)
 
-* Uses the BMR formula to figure out how many calories you need each day* Uses activity multipliers
+* Uses the BMR formula to figure out how many calories you need each day
+* Uses activity multipliers
 * Keeps track of calories eaten
 * Gives the number of calories left to eat
 
 ### 🔹 User Interface (`main.py`)
 
-* Made with Tkinter* Accepts inputs from users
+* Made with Tkinter
+* Accepts inputs from users
 * Shows the results of the calculations
 * Lets you add food and calories
 * Changes results in real time
