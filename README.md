@@ -91,9 +91,13 @@ The project is divided into two main parts:
 ## Example
 
 Enter age: 20
+
 Enter weight in kg: 65
+
 Enter height in cm: 170
+
 Enter gender (Male/Female): male
+
 Enter activity level (Sedentary/Light/Moderate/Active): moderate
 
 Your daily calorie requirement is: 2400.50 kcal
