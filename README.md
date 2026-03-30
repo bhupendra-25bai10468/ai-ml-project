@@ -65,31 +65,21 @@ The project is divided into two main parts:
 
 ## 🛠 Technologies Used
 
-* Python
-* Tkinter (GUI Library)
-* Git & GitHub
+* Python 3.10 or above
+* No external libraries required
 
 ---
 
-## ▶️ How to Run the Project
+## How to Run
 
 1. Clone the repository:
-
-```bash
-git clone https://github.com/bhupendra-25bai10468/ai-ml-project.git
-```
+   git clone https://github.com/bhupendra-25bai10468/ai-ml-project.git
 
 2. Navigate to the project folder:
+   cd ai-ml-project/calories-tracker
 
-```bash
-cd ai-ml-project/calories-tracker
-```
-
-3. Run the application:
-
-```bash
-python main.py
-```
+3. Run the program:
+   python main.py
 
 ---
 
