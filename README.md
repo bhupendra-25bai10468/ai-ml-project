@@ -36,7 +36,7 @@ This project will solve this problem by giving a simple and user-friendly soluti
 
 * ✅ Displays total calories consumed
 
-* ✅ Updates remaining calories after each inputreal-time
+* ✅ Updates remaining calories after each input
 
 * ✅ Simple and easy-to-use interface
 
@@ -88,7 +88,7 @@ The project is divided into two main parts:
 
 ---
 
-## Example
+## 💻 Example 
 
 Enter age: 20
 
