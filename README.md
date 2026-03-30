@@ -2,9 +2,11 @@
 
 ## 📌 Overview
 
-The purpose of this project is to create a Python app that has a GUI, allows users to determine how many calories they should be consuming each day, and allows them to keep track of the food they consume. This app was designed for real-world use and is aimed at assisting students who may not be routinely tracking their caloric intake.
+This is a command-line based Python project that calculates a user's daily calorie requirement and tracks the calories consumed through food intake.
 
-Note: The source code is located inside the 'calories-tracker' folder.
+The program takes user inputs such as age, weight, height, gender, and activity level to calculate daily calorie needs. It also allows users to add food calories and displays the total consumed and remaining calories.
+
+Note: The source code is written inside the 'calories-tracker' folder.
 
 ---
 
@@ -22,7 +24,7 @@ This project will solve this problem by giving a simple and user-friendly soluti
 
 ## 🚀 Features
 
-* ✅ Calculation of calorie requirements on a daily basis by taking into account:
+* ✅ Calculates daily calorie requirement using standard formula which has:
 
   * Age
   * Weight
@@ -48,18 +50,18 @@ The project is divided into two main parts:
 
 ### 🔹 Logic Layer (`logic.py`)
 
-* Uses the BMR formula to figure out how many calories you need each day
+* Command-line based interaction using input() and print()
+* Uses the BMR formula to calculate daily calorie needs
 * Uses activity multipliers
-* Keeps track of calories eaten
+* Keeps track of calories consumed/eaten
 * Gives the number of calories left to eat
 
 ### 🔹 User Interface (`main.py`)
 
-* Made with Tkinter
 * Accepts inputs from users
-* Shows the results of the calculations
-* Lets you add food and calories
-* Changes results in real time
+* Displays calculated results of calories
+* Allows users to add food calories
+* Updates total and remaining calories 
 
 ---
 
@@ -83,6 +85,24 @@ The project is divided into two main parts:
 
 ---
 
+## Example
+
+Enter age: 20
+Enter weight in kg: 65
+Enter height in cm: 170
+Enter gender (Male/Female): male
+Enter activity level (Sedentary/Light/Moderate/Active): moderate
+
+Your daily calorie requirement is: 2400.50 kcal
+
+Do you want to add food calories? yes
+Enter food calories: 500
+
+Total calories eaten: 500.00 kcal
+Remaining calories: 1900.50 kcal
+
+---
+
 ## 📂 Project Structure
 
 ```
@@ -91,31 +111,25 @@ ai-ml-project/
 └── calories-tracker/
     ├── main.py
     └── logic.py
+
 ```
 
 ---
 
 ## ⚠️ Important Notes
 
-You should enter positive and valid numbers into the appropriate fields to ensure the calculation of your daily caloric intake is accurate prior to adding items, this app will not save any of your data permanently (session-based tracking only).
+You should enter positive and valid numbers into the appropriate fields to ensure the calculation of your daily caloric intake is accurate and it will not save any of your data.
 
 ---
 
-## 🔮 Future Improvements
+## 📚 Concepts Used
 
-* Adding a database to support storing history
-* Adding visual charts to help track calories
-* Including a built-in database of foods
-* Transitioning to a web or mobile app format
-
----
-
-## 📚 Learning Outcomes
-
-* Learned GUI development using Tkinter
-* Improved understanding of Python modules and functions
-* Practiced separating logic and UI for better code structure
-* Gained experience in real-world problem solving
+* Functions
+* Conditional statements
+* Loops
+* Dictionaries
+* Input validation
+* Modular programming (separating logic and main files)
 
 ---
 
@@ -127,4 +141,7 @@ Bhupendra Singh
 
 ## 📌 Conclusion
 
-This project shows how programming can be used for solving real-life problems in a simple yet efficient way. It focuses on usability, clarity, and practical application rather than complexity.
+This project demonstrates a simple and practical application of Python programming concepts to solve a real-world problem. It helps users understand calorie tracking while also showcasing structured coding practices.
+## ⚠️ Note
+
+This is a command-line application and runs entirely in the terminal without any graphical interface.
