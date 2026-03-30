@@ -36,9 +36,9 @@ This project will solve this problem by giving a simple and user-friendly soluti
 
 * ✅ Displays total calories consumed
 
-* ✅ Displays remaining calories in real-time
+* ✅ Updates remaining calories after each inputreal-time
 
-* ✅ Clean and user-friendly 
+* ✅ Simple and easy-to-use interface
 
 * ✅ Input validation and error handling
 
@@ -50,7 +50,6 @@ The project is divided into two main parts:
 
 ### 🔹 Logic Layer (`logic.py`)
 
-* Command-line based interaction using input() and print()
 * Uses the BMR formula to calculate daily calorie needs
 * Uses activity multipliers
 * Keeps track of calories consumed/eaten
@@ -58,6 +57,7 @@ The project is divided into two main parts:
 
 ### 🔹 User Interface (`main.py`)
 
+* Command-line based interaction using input() and print()
 * Accepts inputs from users
 * Displays calculated results of calories
 * Allows users to add food calories
@@ -118,7 +118,7 @@ ai-ml-project/
 
 ## ⚠️ Important Notes
 
-You should enter positive and valid numbers into the appropriate fields to ensure the calculation of your daily caloric intake is accurate and it will not save any of your data.
+You should enter positive and valid numbers into the appropriate fields to ensure the calculation of your daily caloric intake is accurate. This program does not store any user data.
 
 ---
 
@@ -142,6 +142,3 @@ Bhupendra Singh
 ## 📌 Conclusion
 
 This project demonstrates a simple and practical application of Python programming concepts to solve a real-world problem. It helps users understand calorie tracking while also showcasing structured coding practices.
-## ⚠️ Note
-
-This is a command-line application and runs entirely in the terminal without any graphical interface.
