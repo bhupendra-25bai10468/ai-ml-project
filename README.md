@@ -102,11 +102,11 @@ Enter activity level (Sedentary/Light/Moderate/Active): moderate
 
 Your daily calorie requirement is: 2400.50 kcal
 
-Do you want to add food calories? yes
-Enter food calories: 500
+Do you want to add food calories? yes  
+Enter food calories: 500  
 
-Total calories eaten: 500.00 kcal
-Remaining calories: 1900.50 kcal
+Total calories eaten: 500.00 kcal  
+Remaining calories: 1900.50 kcal  
 
 ---
 
