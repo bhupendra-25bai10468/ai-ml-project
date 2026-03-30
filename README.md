@@ -6,7 +6,7 @@ This is a command-line based Python project that calculates a user's daily calor
 
 The program takes user inputs such as age, weight, height, gender, and activity level to calculate daily calorie needs. It also allows users to add food calories and displays the total consumed and remaining calories.
 
-Note: The source code is written inside the 'calories-tracker' folder.
+Note: The source code is located inside the `calories-tracker` folder.
 
 ---
 
