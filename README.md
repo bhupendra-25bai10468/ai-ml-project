@@ -75,9 +75,11 @@ The project is divided into two main parts:
 ## How to Run
 
 1. Clone the repository:
+
    git clone https://github.com/bhupendra-25bai10468/ai-ml-project.git
 
 2. Navigate to the project folder:
+
    cd ai-ml-project/calories-tracker
 
 3. Run the program:
