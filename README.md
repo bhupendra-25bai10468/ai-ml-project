@@ -14,7 +14,7 @@ Note: The source code is located inside the `calories-tracker` folder.
 
 Many people are not aware of their calorie requirements on a daily basis. They either eat more or less. This affects their lifestyle and eating habits.
 
-This project will solve this problem by giving a simple and user-friendly solution to:
+This project solves this problem by providing a simple solution to:
 
 * Calculate the calorie requirements
 * Keep a record of food consumed
