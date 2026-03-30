@@ -20,8 +20,8 @@ def calc_daily(age, weight, height, gender, activity):
     "Active": 1.725,
     }
 
-    daily_cals = bmr * activity_map.get(activity, 1.55)
-    return daily_cals
+    d_cals = bmr * activity_map.get(activity, 1.55)
+    return d_cals
 
 def add_food_calories(value):
     global eat_cals
