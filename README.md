@@ -53,7 +53,7 @@ The project is divided into two main parts:
 * Uses the BMR formula to calculate daily calorie needs
 * Uses activity multipliers
 * Keeps track of calories consumed/eaten
-* Gives the number of calories left to eat
+* Calculates the remaining calories
 
 ### 🔹 User Interface (`main.py`)
 
@@ -91,11 +91,8 @@ The project is divided into two main parts:
 ## 💻 Example 
 
 Enter age: 20
-
 Enter weight in kg: 65
-
 Enter height in cm: 170
-
 Enter gender (Male/Female): male
 
 Enter activity level (Sedentary/Light/Moderate/Active): moderate
