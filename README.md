@@ -83,6 +83,7 @@ The project is divided into two main parts:
    cd ai-ml-project/calories-tracker
 
 3. Run the program:
+
    python main.py
 
 ---
